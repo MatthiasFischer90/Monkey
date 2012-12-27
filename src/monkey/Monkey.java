@@ -31,7 +31,7 @@ public class Monkey
         
         // Umlenkung des Outputs
         try {
-            PrintStream out = new PrintStream(new FileOutputStream("output.txt"));
+            PrintStream out = new PrintStream(new FileOutputStream("outputs\\output_" + MAX_SUM + ".txt"));
             System.setOut(out);
         } catch (FileNotFoundException ex) {
             Logger.getLogger(Monkey.class.getName()).log(Level.SEVERE, null, ex);
