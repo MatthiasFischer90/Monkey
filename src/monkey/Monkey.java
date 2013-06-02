@@ -24,7 +24,7 @@ import java.util.logging.Logger;
  */
 public class Monkey
 {
-	// this is a commentary line
+
     public static void main(String[] args)
     {
         final int MAX_SUM = 19;
