@@ -20,7 +20,7 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author Matze
+ * @author Matthias Fischer
  */
 public class Monkey
 {
